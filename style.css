@@ -1,0 +1,394 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;700;900&display=swap');
+
+
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 80px;
+}
+
+.campo {
+    display: flex;
+    justify-content: center;
+    width: 420px;
+    height: 80px;
+    
+}
+
+.campo input {
+    width: 350px;
+    height: 18px;
+    margin-top:26px;
+    border: 0px;
+    border-bottom: 1px solid #000;
+    outline: 0;
+}
+
+.campo span {
+    margin-top: 18px;
+}
+
+
+.conta{
+    display: flex;
+    justify-content: center;
+    width: 360px;
+    height: 80px;
+    text-align: center;
+    
+}
+
+.conta span {
+    margin-top: 28px;
+}
+
+.conta button {
+    height: 30px;
+    margin-top: 26px;
+    font-size: 13px;
+    color: #7A7A7A;
+    border: 0;
+
+}
+
+.carrinho {
+    width: 300px;
+    height: 80px;
+}
+
+.carrinho span {
+    margin-top: 26px;
+}
+
+
+.banner {
+    display: flex;
+    height: 430px;
+    
+}
+
+.banner .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    width:720px ;
+}
+
+.titulo .p1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+    margin-right: -30px;
+    margin-bottom: 10px;
+}
+
+.titulo .p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin: 0px;
+    line-height:45px;
+    
+    
+}
+
+.banner .imagem {
+    background-image: url(image/banner.png);
+    width: 720px;
+    height:430px;
+    background-repeat: no-repeat;
+    
+}
+
+h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    margin: 0px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    margin-left: 220px;
+    
+}
+
+.borda {
+    width: 65px;
+    height: 3px;
+    background-color:#C0C0C0;
+    margin: 0px;
+    margin-left: 220px;
+}
+
+.prateleira0 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.prateleira {
+    width: 1000px;
+    height: 354px;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.sapato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 216px;
+}
+
+.sapato .sapato1{
+    width: 214px ;
+    height: 200px;
+    background-image: url(image/sapato.png);
+    background-size: 100%;
+}
+
+.sapato .p1 {
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin:0px;
+    
+}
+
+.sapato .star {
+    width: 75px;
+    height: 10px;
+}
+
+.star span {
+    color: #F8475F;
+    font-size: 10px;
+    
+}
+
+.sapato .p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 23px;
+}
+
+.sapato .p3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7A7A7A;
+    margin-top: 4px;
+}
+
+.sapato button {
+    font-weight: 700;
+    width: 124px;
+    height: 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.sandalia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 216px;
+
+}
+
+.sandalia .sandalia1{
+    width: 214px ;
+    height: 200px;
+    background-image: url(image/sandalia.png);
+    background-size: 100%;
+}
+
+.sandalia .p1 {
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin:0px;
+    
+}
+
+.sandalia .star {
+    width: 75px;
+    height: 10px;
+}
+
+.star span {
+    color: #F8475F;
+    font-size: 10px;
+    
+}
+
+.sandalia .p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 23px;
+}
+
+.sandalia .p3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7A7A7A;
+    margin-top: 4px;
+}
+
+.sandalia button {
+    font-weight: 700;
+    width: 124px;
+    height: 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+.bota {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 216px;
+}
+
+.bota .bota1{
+    width: 214px ;
+    height: 200px;
+    background-image: url(image/bota.png);
+    background-size: 100%;
+}
+
+.bota .p1 {
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin:0px;
+    
+}
+
+.bota .star {
+    width: 75px;
+    height: 10px;
+}
+
+.star span {
+    color: #F8475F;
+    font-size: 10px;
+    
+}
+
+.bota .p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 23px;
+}
+
+.bota .p3 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #7A7A7A;
+    margin-top: 4px;
+}
+
+.bota button {
+    font-weight: 700;
+    width: 124px;
+    height: 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+.cinto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 216px;
+}
+
+.cinto .cinto1{
+    width: 214px ;
+    height: 200px;
+    background-image: url(image/cinto.png);
+    background-size: 100%;
+}
+
+.cinto .p1 {
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin:0px;
+    
+}
+
+.cinto .star {
+    width: 75px;
+    height: 10px;
+}
+
+.star span {
+    color: #F8475F;
+    font-size: 10px;
+    
+}
+
+.cinto .p2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+    margin-top: 23px;
+}
+
+.cinto button {
+    font-weight: 700;
+    width: 124px;
+    height: 32px;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+
