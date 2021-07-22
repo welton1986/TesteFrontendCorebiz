@@ -528,7 +528,12 @@ footer .contato {
     background-color: #000000;
 }
 
+
+
 .contato button {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
     width: 194px;
     height: 38px;
     font-weight: 600;
@@ -538,6 +543,11 @@ footer .contato {
     padding: 5px;
     
 }
+
+.contato button span {
+    margin-right: 10px;
+}
+
 
 footer .criado {
     width: 300px;
@@ -666,13 +676,373 @@ footer .criado {
         margin: 0px;
         margin-left: 20px;  
     }
-    
-    
 
-     
+
+    .prateleira0 {
+        width: 100%;
+        height: 300;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    .prateleira {
+        width: 306px;
+        height: 280px;
+        margin-top: 26px;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    
+    .sapato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 132px;
+    }
+    
+    .sapato .sapato1{
+        width: 132px ;
+        height: 122px;
+        background-image: url(image/sapato.png);
+        background-size: 100%;
+    }
+    
+    .sapato .p1 {
+        font-size: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin:0px;
+        
+    }
+    
+    .sapato .star {
+        width: 75px;
+        height: 10px;
+    }
+    
+    .star span {
+        color: #F8475F;
+        font-size: 10px;
+        
+    }
+    
+    .sapato .p2 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+    .sapato .p3 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #7A7A7A;
+        margin-top: 4px;
+    }
+    
+    .sapato button {
+        font-weight: 700;
+        width: 140px;
+        height: 36px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    .sandalia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 132px;
+    
+    }
+    
+    .sandalia .sandalia1{
+        width: 132px ;
+        height: 122px;
+        background-image: url(image/sandalia.png);
+        background-size: 100%;
+    }
+    
+    .sandalia .p1 {
+        font-size: 10px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 600;
+        text-align: center;
+        margin:0px;
+        
+    }
+    
+    .sandalia .star {
+        width: 75px;
+        height: 10px;
+    }
+    
+    .star span {
+        color: #F8475F;
+        font-size: 10px;
+        
+    }
+    
+    .sandalia .p2 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+    .sandalia .p3 {
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        color: #7A7A7A;
+        margin-top: 4px;
+    }
+    
+    .sandalia button {
+        font-weight: 700;
+        width: 140px;
+        height: 36px;
+        background-color: #000000;
+        color: #FFFFFF;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    
+    
+    .bota {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 216px;
+    }
+    
+   
+    .cinto {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 216px;
+    }
+
+
+
+    #news {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 290px;
+        margin: 0px;
+        
+        
+    }
+
+    #news div {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+    
+    #news p {
+        font-size: 22px;
+        font-weight: 700;
+        margin: 0px;
+        margin-top: 24px;
+        margin-bottom: 19px;
+        color: #333333;
+        text-align: center;
+    }
+    
+    #news input {
+        width:288px ;
+        height: 48px;
+        border-radius: 5px;
+        border: 0;
+        margin-top: 8px;
+        padding-left: 16px;
+    }
+
+    
+    #news #btn {
+        width: 288px;
+        height: 48px;
+        margin: 0px;
+        margin-top: 7px;
+        color: #FFFFFF ;
+        background-color:#000000;
+        border-radius: 5px ;
+        cursor: pointer;
     
 }
 
+    #news form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
+    #cadastro {
+        display: flex;
+        display: none;
+        height: 146px;
+        justify-content: center;
+        background-color:green;
+    }
+    
+    #cadastro .cadastrado {
+        width: 300px;
+        height: 1146px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cadastrado .p1 {
+        font-size: 14px ;
+        margin: 0;
+        margin-top: 32px;
+        font-weight: 700;
+    }
+    
+    .cadastrado .p2 {
+        font-size: 12px;
+        margin: 0;
+        font-weight: 400;
+    }
+    
+    .cadastrado #btnNovo {
+        font-size: 12px;
+        font-weight: 700;
+        color: #FFFFFF;
+        width: 288px ;
+        height: 48px;
+        margin-top: 15px;
+        border-radius: 5px;
+        background-color: #000000;
+    }
+
+
+
+    footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 386px;
+        background-color: #000000;
+        
+    }
+    
+    footer div {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    footer .local {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#000000;
+        margin-top: 27px;
+    
+    }
+    
+    footer .p1 {
+        font-size: 18px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin: 0px;
+    }
+    
+    footer .linha {
+        width: 44px;
+        height: 3px;
+        background-color: #FFFFFF;
+        margin: 0px;
+        margin-top: 16px;
+    
+    }
+    
+    footer .p2 {
+        font-size: 13px;
+        font-weight: 400;
+        margin: 0px;
+        margin-top: 20px;
+        color: #FFFFFF;
+    }
+    
+    footer .contato {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #000000;
+        margin: 0px;
+    }
+    
+    .contato button {
+        width: 198px;
+        height: 38px;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 0px;
+        margin-top: 26px;
+        border-radius: 5px;
+        padding: 5px;
+        
+    }
+    
+    footer .criado {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        background: #000000;
+        margin-top: 24px;
+    }
+
+    .criado div {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+    
+    .criado .p1 {
+        width: 100px;
+        font-size: 10px ;
+        margin: 0px;
+        
+        
+    }
+    
+    .criado .p2 {
+        width: 100px;
+        font-size: 10px;
+        margin: 0px;
+        text-align: end;
+
+        
+    }
+
+
+
+
+
+}
