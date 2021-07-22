@@ -63,6 +63,7 @@ header {
     font-size: 13px;
     color: #7A7A7A;
     border: 0;
+    cursor:pointer;
 
 }
 
@@ -139,6 +140,7 @@ h4 {
 }
 
 .prateleira0 {
+    width: 100%;
     display: flex;
     justify-content: center;
     
@@ -212,6 +214,7 @@ h4 {
     color: #FFFFFF;
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .sandalia {
@@ -273,6 +276,7 @@ h4 {
     color: #FFFFFF;
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 
@@ -334,6 +338,7 @@ h4 {
     color: #FFFFFF;
     border-radius: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 
@@ -389,6 +394,129 @@ h4 {
     border-radius: 5px;
     font-size: 12px;
     margin-top: 30px;
+    cursor: pointer;
 }
+
+#news {
+    display: flex;
+    justify-content: center;
+    height: 146px;
+    margin-top: 68px;
+    
+}
+
+#news p {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    color: #333333;
+    text-align: center;
+}
+
+#news input {
+    width:240px ;
+    height: 38px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#news #btn {
+    width: 120px;
+    height: 38px;
+    color: #FFFFFF ;
+    background-color: #333333;
+    border-radius: 5px ;
+    cursor: pointer;
+    
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 224px;
+    background-color: #000000;
+    
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .local {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#000000;
+
+}
+
+footer .p1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+footer .linha {
+    width: 44px;
+    height: 3px;
+    background-color: #FFFFFF;
+    margin: 0px;
+    margin-top: 16px;
+
+}
+
+footer .p2 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+footer .contato {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.contato button {
+    width: 194px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+footer .criado {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background: #000000;
+}
+
+.criado .p1 {
+    font-size: 10px ;
+    margin: 0px;
+    margin-right: 36px;
+}
+
+.criado .p2 {
+    font-size: 10px;
+    margin: 0px;
+}
+
+
 
 
