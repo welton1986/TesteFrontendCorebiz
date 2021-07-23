@@ -3,7 +3,7 @@
     <img src='image/logo_corebiz.png'>
 </h1>
 
-# Indiceid
+# Indíce
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
 - [Como-baixar o projeto](#-Como-baixar-o-projeto)
