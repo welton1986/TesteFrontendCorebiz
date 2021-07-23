@@ -11,7 +11,7 @@
 
 ## 📝 Sobre
 
-O Projeto **Corebiz** foi criado para conclusão de teste para estágio.
+O Projeto **Corebiz** é uma página de Marketplace. Foi criado para fins de demosntrar o conhecimento em algumas tecnologias especificas.
 
 ---
 
