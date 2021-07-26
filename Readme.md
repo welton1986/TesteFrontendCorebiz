@@ -34,14 +34,7 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias.
 # Clonar repositório
 $ git clone https://github.com/welton1986
 
-# Entrar no diretoório
-$ cd TesteFrontEndCorebiz
 
-#Instalar as dependências
-$ yarn install
-
-#Instalar o projeto
-$ yarn start
 
 ```
 
