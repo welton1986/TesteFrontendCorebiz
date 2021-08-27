@@ -26,17 +26,7 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias.
 
 ---
 
-## ✔ Como baixar o projeto
 
-
-```bash
-
-# Clonar repositório
-$ git clone https://github.com/welton1986
-
-
-
-```
 
 🚀Desenvolvido por Welton Cardoso
 
