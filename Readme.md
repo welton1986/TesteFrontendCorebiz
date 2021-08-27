@@ -24,7 +24,7 @@ O Projeto foi desenvolvido utilizando as seguintes tecnologias.
 - Css
 - Javascript
 
---- <br/>
+ <br/>
 
 - [Acessar a página](https://welton1986.github.io/TesteFrontendCorebiz/)
 
