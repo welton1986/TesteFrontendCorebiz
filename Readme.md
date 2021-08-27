@@ -19,12 +19,14 @@ O Projeto **Corebiz** é uma página de Marketplace. Foi criado para fins de dem
 
 O Projeto foi desenvolvido utilizando as seguintes tecnologias.
 
-- [Html](https://welton1986.github.io/TesteFrontendCorebiz/)
+- Html
 
 - Css
 - Javascript
 
----
+--- <br/>
+
+- [Acessar a página](https://welton1986.github.io/TesteFrontendCorebiz/)
 
 
 
